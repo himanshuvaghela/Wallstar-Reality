@@ -1,0 +1,109 @@
+.sbHolder{
+	background-color: #fff;
+	border: solid 1px #ddd;
+	font-size: 12px;
+	font-weight: normal;
+	height: 35px;
+	position: relative;
+	width: 100%;
+}
+.sbHolder:focus .sbSelector{
+	
+}
+.sbSelector{
+	display: block;
+	height: 35px;
+	left: 0;
+	line-height: 35px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+	top: 0;
+	width: 100%;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	color: #e74c3c;
+	outline: none;
+	text-decoration: none;
+}
+.sbToggle{
+	background: #333 url(../images/select-icon.png) no-repeat 50%;
+	display: block;
+	height: 34px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35px;
+}
+.sbToggle:hover{
+	background: #e74c3c url(../images/select-icon.png) no-repeat 50%;
+}
+.sbToggleOpen{
+	background: #e74c3c url(../images/select-icon.png) no-repeat 50%;
+}
+.sbToggleOpen:hover{
+	background: #e74c3c url(../images/select-icon.png) no-repeat 50%;
+}
+.sbHolderDisabled{
+	background-color: #eee;
+	border: solid 1px #ddd;
+}
+.sbHolderDisabled .sbHolder{
+	
+}
+.sbHolderDisabled .sbToggle{
+	
+}
+.sbOptions{
+	background-color: #fff;
+	border: solid 1px #ddd;
+	border-top: none;
+	list-style: none;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 35px;
+	width: 100%;
+	z-index: 1;
+	overflow-y: auto;
+}
+.sbOptions li{
+	padding: 0;
+}
+.sbOptions a{
+	border-top: solid 1px #ddd;
+	display: block;
+	outline: none;
+	padding: 7px 0 7px 10px;
+}
+.sbOptions a:link, .sbOptions a:visited{
+	color: #777;
+	text-decoration: none;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+	color: #e74c3c;
+}
+.sbOptions li.last a{
+	border-bottom: none;
+}
+.sbOptions .sbDisabled{
+	border-bottom: solid 1px #ddd;
+	color: #999;
+	display: block;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+	border-bottom: solid 1px #ddd;
+	color: #777;
+	display: block;
+	font-weight: bold;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+	padding-left: 17px;
+}

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+    <title>Wallstar</title>
+
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+	
+</head>
+
+<body>
+
+<header>
+	
+	<!-- Topbar
+	============================================================== --->
+	<div class="topbar clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="logo-box col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<a href="index_1.html" class="logo"><img src="images/logo.png" height="150px" alt="Wallstar" title="Wallstar" ></a>
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+					
+					<div class="topbar-social">
+					 
+						
+					</div>
+				</div>
+				
+				
+				
+				<div class="menu-login-cont">
+					<nav id="header-menu-cont">
+						<ul class="sf-menu" id="top-menu">
+							<li class="current-menu-item">
+								<a href="index_1.html">Home</a>
+							</li>
+							<li>
+								<a href="about-us.html">About Us</a>
+							</li>
+							<li>
+								<a href="all-properties.html"> All Properties</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact Us</a>
+							</li>
+                            <li>
+								<a href="index.html">Logout</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+	
+	
+	
+</header>
+
+
+
+<!-- Home Slider
+============================================================== -->
+<div class="home-slider clearfix">
+	 
+	<ul class="slides">
+		<li>
+			<a href="#"><img src="images/slider/slider1.jpg" alt="" ></a>
+			<div class="container">
+				<div class="slider-wrap">
+					
+				</div> 
+			</div>
+		</li>
+		<li>
+			<a href="#"><img src="images/slider/slider2.jpg" alt="" ></a>
+			<div class="container">
+				<div class="slider-wrap">
+					
+				</div> 
+			</div>
+		</li>
+		<li>
+			<a href="#"><img src="images/slider/slider3.jpg" alt="" ></a>
+			<div class="container">
+				<div class="slider-wrap">
+					
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+	
+</div> 
+
+<!-- Advanced Search
+============================================================== -->
+<section class="adv-search-blk">
+	<div class="container">
+		<h3 class="adv-search-hd">Find Home</h3>
+		<form class="advance-search-form clearfix" action="#" method="get">
+			<div class="row">
+				
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+					<label>Area</label>
+					<select name="max-price" id="select-max-price" class="styled-select">
+                        <option value="5000">Rs.5,000</option>
+                        <option value="10000">Rs.10,000</option>
+                        <option value="50000">Rs.50,000</option>
+                        <option value="100000">Rs.100,000</option>
+                        <option value="200000">Rs.200,000</option>
+                        <option value="300000">Rs.300,000</option>
+                        <option value="400000">Rs.400,000</option>
+                        <option value="500000">Rs.500,000</option>
+                        <option value="600000">Rs.600,000</option>
+                        <option value="700000">Rs.700,000</option>
+                        <option value="800000">Rs.800,000</option>
+                        <option value="900000">Rs.900,000</option>
+                        <option value="1000000">Rs.1,000,000</option>
+                        <option value="1500000">Rs.1,500,000</option>
+                        <option value="2000000">Rs.2,000,000</option>
+                        <option value="2500000">Rs.2,500,000</option>
+                        <option value="5000000">Rs.5,000,000</option>
+                        <option value="10000000">Rs.10,000,000</option>
+                        <option value="any" selected="selected">Any</option>
+                    </select>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+					<label>Type</label>
+					<select name="max-price" id="select-max-price" class="styled-select">
+                        <option value="5000">Rs.5,000</option>
+                        <option value="10000">Rs.10,000</option>
+                        <option value="50000">Rs.50,000</option>
+                        <option value="100000">Rs.100,000</option>
+                        <option value="200000">Rs.200,000</option>
+                        <option value="300000">Rs.300,000</option>
+                        <option value="400000">Rs.400,000</option>
+                        <option value="500000">Rs.500,000</option>
+                        <option value="600000">Rs.600,000</option>
+                        <option value="700000">Rs.700,000</option>
+                        <option value="800000">Rs.800,000</option>
+                        <option value="900000">Rs.900,000</option>
+                        <option value="1000000">Rs.1,000,000</option>
+                        <option value="1500000">Rs.1,500,000</option>
+                        <option value="2000000">Rs.2,000,000</option>
+                        <option value="2500000">Rs.2,500,000</option>
+                        <option value="5000000">Rs.5,000,000</option>
+                        <option value="10000000">Rs.10,000,000</option>
+                        <option value="any" selected="selected">Any</option>
+                    </select>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+					<label>Bedrooms</label>
+					<select name="max-price" id="select-max-price" class="styled-select">
+                        <option value="5000">Rs.5,000</option>
+                        <option value="10000">Rs.10,000</option>
+                        <option value="50000">Rs.50,000</option>
+                        <option value="100000">Rs.100,000</option>
+                        <option value="200000">Rs.200,000</option>
+                        <option value="300000">Rs.300,000</option>
+                        <option value="400000">Rs.400,000</option>
+                        <option value="500000">Rs.500,000</option>
+                        <option value="600000">Rs.600,000</option>
+                        <option value="700000">Rs.700,000</option>
+                        <option value="800000">Rs.800,000</option>
+                        <option value="900000">Rs.900,000</option>
+                        <option value="1000000">Rs.1,000,000</option>
+                        <option value="1500000">Rs.1,500,000</option>
+                        <option value="2000000">Rs.2,000,000</option>
+                        <option value="2500000">Rs.2,500,000</option>
+                        <option value="5000000">Rs.5,000,000</option>
+                        <option value="10000000">Rs.10,000,000</option>
+                        <option value="any" selected="selected">Any</option>
+                    </select>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+					<label>Sq. ft.</label>
+					<select name="max-price" id="select-max-price" class="styled-select">
+                        <option value="5000">Rs.5,000</option>
+                        <option value="10000">Rs.10,000</option>
+                        <option value="50000">Rs.50,000</option>
+                        <option value="100000">Rs.100,000</option>
+                        <option value="200000">Rs.200,000</option>
+                        <option value="300000">Rs.300,000</option>
+                        <option value="400000">Rs.400,000</option>
+                        <option value="500000">Rs.500,000</option>
+                        <option value="600000">Rs.600,000</option>
+                        <option value="700000">Rs.700,000</option>
+                        <option value="800000">Rs.800,000</option>
+                        <option value="900000">Rs.900,000</option>
+                        <option value="1000000">Rs.1,000,000</option>
+                        <option value="1500000">Rs.1,500,000</option>
+                        <option value="2000000">Rs.2,000,000</option>
+                        <option value="2500000">Rs.2,500,000</option>
+                        <option value="5000000">Rs.5,000,000</option>
+                        <option value="10000000">Rs.10,000,000</option>
+                        <option value="any" selected="selected">Any</option>
+                    </select>
+				</div>
+				
+			</div>
+			<div class="row">
+				
+				
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<input type="submit" value="Search">
+				</div>
+			</div>
+		</form>
+	</div>
+</section>
+
+<h3 class="adv-search-hd" style="margin-top:5%;text-align:center;">Find Your Dream Home</h3>
+<form class="advance-search-form clearfix" style="width:97%;margin-left:15px" id="search" action="search_property.php" method="POST">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<label>Location</label>
+					<select name="location" id="select-location" class="styled-select">
+						<option value="" selected="selected">-Select-</option>
+													<option value="Andheri East">Andheri East</option>
+							
+													<option value="Andheri West">Andheri West</option>
+							
+													<option value="Khar">Khar</option>
+							
+													<option value="Santacruz west">Santacruz west</option>
+							
+													<option value="Dadar East">Dadar East</option>
+							
+						                    </select>
+				</div>
+				 
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<label>Status</label>
+					<select name="status" id="select-min-price" class="styled-select">
+						<option value="" selected="selected">-Select-</option>
+													<option value="Completed">Completed</option>
+							
+													<option value="On Going">On Going</option>
+							
+													<option value="Upcoming">Upcoming</option>
+							
+						                    </select>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<label>Property Type</label>
+					<select name="type" id="select-min-price" class="styled-select">
+						<option value="" selected="selected">-Select-</option>
+													<option value="Residential">Residential </option>
+							
+													<option value="Commercial">Commercial </option>
+							
+						                    </select>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<label>Bedrooms</label>					    
+						<select name="bedroom" id="select-bedroom" class="styled-select" multiple="" style="display: none;">
+						<option value="" selected="selected">-Select-</option>
+													<option value="2 BHK">2 BHK</option>
+							
+													<option value="2.5 BHK">2.5 BHK</option>
+							
+													<option value="3 BHK">3 BHK</option>
+							
+													<option value="4 BHK">4 BHK</option>
+							
+						                    </select>
+				
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<label>Minimum Price</label>
+					<select name="min-price" id="select-max-price" class="styled-select">
+						<option value="" selected="selected">-Select-</option>
+													<option value="10000000">10000000</option> <!--1 crore(10000000)-->
+													<option value="20000000">20000000</option>
+													<option value="40000000">40000000</option>
+													<option value="50000000">50000000</option>
+													<option value="60000000">60000000</option>
+													<option value="75000000">75000000</option>
+													<option value="80000000">80000000</option>
+													<option value="90000000">90000000</option>
+													<option value="100000000">100000000</option>
+							
+						                    </select>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+					<label>Maximum Price</label>
+					<select name="max-price" id="select-max-price" class="styled-select">
+                        <option value="" selected="selected">-Select-</option>
+													<option value="10000000">10000000</option> <!--1 crore(10000000)-->
+													<option value="20000000">20000000</option>
+													<option value="40000000">40000000</option>
+													<option value="50000000">50000000</option>
+													<option value="60000000">60000000</option>
+													<option value="75000000">75000000</option>
+													<option value="80000000">80000000</option>
+													<option value="90000000">90000000</option>
+													<option value="100000000">100000000</option>							
+						                    </select>
+				</div>
+				 
+			</div>
+			 
+			
+<div class="container " style="margin-top:5%;text-align:center;"> 
+ 
+<button type="submit" class="btn btn-warning">Search</button>
+ 
+
+</div>
+		</form>
+
+
+    <div id="wall" style="text-align:-webkit-center;margin-top:20px;" >
+    <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDD2lr1x-PRSWOMqSrpzMsey0zBS1Tg6II'></script>
+    <div style='overflow:hidden;height:440px;width:1000px;'><div id='gmap_canvas' style='height:440px;width:1000px;'></div><div><small><a href="https://embedgooglemaps.com/en/how-to-embed-google-maps-into-your-website/">
+
+        
+    
+    </a>
+    </small></div>
+    <div><small><a href="https://ww.premiumlinkgenerator.com/supported-file-hosts">PremiumLinkGenerator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>
+    function init_map1()
+        {var myOptions = {zoom:13,center:new google.maps.LatLng(19.082417051254446,72.87867610747071),mapTypeId: google.maps.MapTypeId.ROADMAP};
+         map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+         marker1 = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.1030524,72.84669140000005)});
+        infowindow = new google.maps.InfoWindow({content:'<strong>WallStar</strong><br>Vile Parle<br>'});
+         google.maps.event.addListener(marker1, 'click', function(){infowindow.open(map,marker1);});infowindow.open(map,marker1);
+         
+         marker2 = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.082417051254446,72.87867610747071)});
+        infowindow2 = new google.maps.InfoWindow({content:'<strong>Parinee Cresenzo</strong><br>bandra kurla complex mumbai<br>'});
+         google.maps.event.addListener(marker2, 'click', function(){infowindow2.open(map,marker2);});
+         infowindow2.open(map,marker2);
+         
+         marker3 = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.0330,73.0297)});
+         infowindow = new google.maps.InfoWindow({content:'<strong>Om Sagar</strong><br>Navi Mumbai<br>'});
+         google.maps.event.addListener(marker3, 'click', function(){infowindow.open(map,marker3);});infowindow.open(map,marker3);
+         
+         marker4 = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.0988,72.8321)});
+         infowindow = new google.maps.InfoWindow({content:'<strong>Rustomjee Element</strong><br>Juhu<br>'});
+         google.maps.event.addListener(marker4, 'click', function(){infowindow.open(map,marker4);});infowindow.open(map,marker4);
+         
+         marker5 = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.2100,72.8183)});
+         infowindow = new google.maps.InfoWindow({content:'<strong>Rustomjee Meredian</strong><br>Kandivali west charkop<br>'});
+         google.maps.event.addListener(marker5, 'click', function(){infowindow.open(map,marker5);});infowindow.open(map,marker5);
+          
+         marker6 = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.1155,72.8727)});
+         infowindow = new google.maps.InfoWindow({content:'<strong>Rustomjee Rivera</strong><br>Andheri east<br>'});
+         google.maps.event.addListener(marker6, 'click', function(){infowindow.open(map,marker6);});infowindow.open(map,marker6);
+         
+         marker7 = new google.maps.Marker({map: map,position: new google.maps.LatLng(19.1551,72.8679)});
+         infowindow = new google.maps.InfoWindow({content:'<strong>Rustomjee Vertico</strong><br>Goregaon east<br>'});
+         google.maps.event.addListener(marker7, 'click', function(){infowindow.open(map,marker7);});infowindow.open(map,marker7);
+         
+         
+         }
+        
+        google.maps.event.addDomListener(window, 'load', init_map1);</script>
+    
+        </div>
+
+<!-- Featured Properties 
+============================================================== --> 
+<section class="featured-properties" style="margin-bottom:5%;">
+	<div class="content-head">
+		<h3>Featured Properties</h3>
+		<p>View the list of our featured properties</p>
+	</div>
+	<div class="featured-arrows">
+		<div class="feature-prev"><i class="fa fa-chevron-left"></i></div>
+		<div class="feature-next"><i class="fa fa-chevron-right"></i></div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="featured-caro owl-carousel">
+					<div class="property-item clearfix">
+						<div class="list-property-img">
+							<a href="rustomjee5.html"><img src="images/properties/property1.jpg" alt="" ></a>
+							<div class="pro-stat">On Sale</div>
+						</div>
+						<div class="list-property-desc">
+							<h4><a href="rustomjee5.html">Parinee Crescenzo</a></h4>
+							<p>Unit No:-803 , 8 Flr , G- Block , Plot No:-C-38 & C-39 , Bandra Kurla Complex , Bandra - East , Mumbai - 400 051.</p>
+							<div class="pro-btn-box">
+								<!-- <div class="pro-price">Rs.1200</div> -->
+								<a href="rustomjee5.html" class="pro-ln-mor">View Details</a>
+							</div>
+						</div>
+					</div>
+					<div class="property-item clearfix">
+						<div class="list-property-img">
+							<a href="rustomjee4.html"><img src="images/properties/property2.jpg" alt="" ></a>
+							<div class="pro-stat">On Sale</div>
+						</div>
+						<div class="list-property-desc">
+							<h4><a href="rustomjee4.html">Om Sagar </a></h4>
+							<p>Plot No.D-222/2, TTC Industrial Area, Nerul, Navi Mumbai 400 706.</p>
+							<div class="pro-btn-box">
+								<!-- <div class="pro-price">Rs.50000</div> -->
+								<a href="rustomjee4.html" class="pro-ln-mor">View Details</a>
+							</div>
+						</div>
+					</div>
+					<div class="property-item clearfix">
+						<div class="list-property-img">
+							<a href="rustomjee2.html"><img src="images/properties/rustomjee-element.jpg" height="246px" alt="" ></a>
+							<div class="pro-stat">On Sale</div>
+						</div>
+						<div class="list-property-desc">
+							<h4><a href="rustomjee2.html">Rustomjee Element</a></h4>
+							<p>D N Nagar, Off Juhu Circle, Upper Juhu, Mumbai</p>
+							<div class="pro-btn-box">
+								<!-- <div class="pro-price">Rs.1200</div> -->
+								<a href="rustomjee2.html" class="pro-ln-mor">View Details</a>
+							</div>
+						</div>
+					</div>
+					<div class="property-item clearfix">
+						<div class="list-property-img">
+							<a href="rustomjee3.html"><img src="images/properties/rustomjee-meridian.jpg" height="246px" alt="" ></a>
+							<div class="pro-stat">On Sale</div>
+						</div>
+						<div class="list-property-desc">
+							<h4><a href="rustomjee3.html">Rustomjee Meridian</a></h4>
+							<p>Charkop Village, Off M G Road, Near Charkop, Kandivali (W), Mumbai</p>
+							<div class="pro-btn-box">
+								<!-- <div class="pro-price">81.00 Lac - 1.55 Cr</div> -->
+								<a href="rustomjee3.html" class="pro-ln-mor">View Details</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+ 
+ 
+
+</br>
+</br>
+</br>
+
+
+
+</br>
+</br>
+</br>
+
+ 
+<footer>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="footer-widget">
+						<h3 class="footer-widget-head">About Us</h3>
+						<p>
+							Wallstar Realty LLP is a venture started by three dynamic veterans in Mumbai Real Estate market who bring in the perfect mélange of business know how, market knowledge and technical expertise. They aim to use their knowledge in helping the real estate market reach newer heights. The primary aim of this company is to help a correct buyer reach his desired property at the best possible price.
+						</p>
+					</div>
+				</div>
+								
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="footer-widget">
+						<h3 class="footer-widget-head-middle footer-widget-head">Latest Properties</h3>
+						<ul>
+							<li>
+								<a href="rustomjee5.html">
+									Parinee Crescenzo
+								</a>
+								<!-- <div class="widget-pro-price">Rs.1200 Per Month</div> -->
+							</li>
+							<li>
+								<a href="rustomjee4.html">
+									Om Sagar
+								</a>
+								<!-- <div class="widget-pro-price">Rs.1200 Per Month</div> -->
+							</li>
+							<li>
+								<a href="rustomjee2.html">
+									Rustomjee Elements
+								</a>
+								<!-- <div class="widget-pro-price">Rs.1200 Per Month</div> -->
+							</li>
+							<li>
+								<a href="rustomjee3.html">
+									Rustomjee Meridian
+								</a>
+								<!-- <div class="widget-pro-price">Rs.1200 Per Month</div> -->
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="footer-widget">
+						<h3 class="footer-widget-head">Contact Info</h3>
+						<div class="address-blk">
+							6th floor,D.J.Sanghvi,Plot No.U-15, J.V.P.D. Scheme, Bhaktivedanta Swami Marg, Vile Parle West, Mumbai, Maharashtra-400056
+						</div>
+						<div class="phone-blk">
+							022-4233-5000
+						</div>
+						<div class="email-blk">
+							<a href="mailto:info@wallstar.com">info@wallstar.com</a> <br>
+						</div>
+						<div class="topbar-social">
+							<ul>
+								<div class="social-icon-item"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></div>
+								<div class="social-icon-item"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></div>
+								<div class="social-icon-item"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></div>
+								<div class="social-icon-item"><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+							</ul>
+						</div>
+					
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="footer-widget">
+						<a href="index_1.html" class="logo"><img src="images/logo.png" height="150px" alt="Wallstar" title="Wallstar" ></a>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<ul class="footer-menu">
+						<li class="current-menu-item">
+						    <li>
+								<a href="index_1.html">Home</a>
+							</li> 
+							<li>
+								<a href="about-us.html">About Us</a>
+							</li>
+							<li>
+								<a href="all-properties.html">All Properties</a>
+							</li>
+							
+							
+							<li>
+								<a href="contact.html">Contact Us</a>
+							</li>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<p id="back-top">
+	<a href="#top" title="Back to Top"><i class="fa fa-chevron-up"></i></a>
+</p>
+
+
+
+
+
+<!-- JavaScript
+================================================== -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.selectbox-0.2.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
